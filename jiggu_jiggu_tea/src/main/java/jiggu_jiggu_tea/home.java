@@ -20,7 +20,6 @@ protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws Se
 	
 	ServletContext context=getServletContext();
 	String profile=(String)context.getAttribute("u11");
-	resp.getWriter().print(profile);
 	
 	try {
 		EntityManagerFactory emf=Persistence.createEntityManagerFactory("dev");
