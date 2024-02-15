@@ -1,0 +1,180 @@
+/* Header styles */
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Logo styles */
+.login-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.login-logo img {
+    margin-top: 30px;
+    width: 40px;
+    height: auto;
+}
+
+/* Shop info styles */
+.shop-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-info img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.shop-name {
+    margin: 0;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Login page styles */
+.login {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+    text-align: center;
+    color: #3498db;
+}
+
+.login-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form form {
+    display: grid;
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.login-form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.login-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    bottom: 10px;
+}
+
+.login-form button {
+    background-color: #3498db;
+    color: #fff;
+    border: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.login-form button:hover {
+    background-color: #267bb5;
+}
+
+#ps-icon{
+    position: relative;
+    width: 20px;
+    bottom: 29px;
+    left: 365px;
+    cursor: pointer;
+}
+    #w{
+    color: #c0392b;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    }
+    
+    #wp p{
+    color: #c0392b;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    }

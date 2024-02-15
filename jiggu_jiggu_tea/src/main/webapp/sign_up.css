@@ -1,0 +1,167 @@
+/* Your existing CSS styles go here */
+
+/* Sign Up page styles */
+.signup {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup h2 {
+    color: #3498db;
+}
+
+.signup p {
+    color: #555;
+    font-size: 16px;
+}
+
+.signup-form {
+    margin-top: 20px;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #267bb5;
+}
+
+
+#ps-icon
+{
+    position: relative;
+    width: 20px;
+    bottom: 29px;
+    left: 365px;
+    cursor: pointer;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.login-logo {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    z-index: 2; /* Ensure the logo appears above other elements */
+}
+.login-logo img {
+    margin-top: 30px;
+    width: 40px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.shop-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-info img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.shop-name {
+    margin: 0;
+}
+
+.hero {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Sign Up Successful page styles */
+.signup-success {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.signup-success h2 {
+    color: #3498db;
+}
+
+.signup-success p {
+    color: #555;
+    font-size: 16px;
+}
+
+.signup-success-container {
+    margin-top: 20px;
+}
+
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        z-index: 1;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .menu-btn, .close-btn {
+        display: block;
+    }
+}
